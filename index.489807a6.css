@@ -1,0 +1,115 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+#area {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  overflow: auto;
+}
+
+#tools {
+  align-items: left;
+  width: 580px;
+  height: 100%;
+  flex-flow: column wrap;
+  transition: width .8s;
+  display: flex;
+  overflow: auto;
+}
+
+#doomlogo {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+@media only screen and (max-width: 1700px) {
+  #tools {
+    width: 440px;
+  }
+}
+
+@media only screen and (max-width: 1540px) {
+  #tools {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  #tools {
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 966px) {
+  #main {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+  }
+
+  #tools {
+    width: 100%;
+    height: 240px;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+  }
+
+  #area {
+    justify-content: flex-start;
+  }
+}
+
+#left-arrow, #right-arrow {
+  width: 30px;
+}
+
+#map {
+  min-width: 50px;
+}
+
+#mapdiv {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#doomlogo {
+  align-self: center;
+}
+
+#layersdiv {
+  align-items: left;
+  flex-flow: column wrap;
+  justify-content: left;
+  transition: width .8s;
+  display: flex;
+  overflow: auto;
+}
+
+.layersubdiv {
+  margin-left: 10%;
+}
+
+#line {
+  width: 90%;
+}
+
+/*# sourceMappingURL=index.489807a6.css.map */

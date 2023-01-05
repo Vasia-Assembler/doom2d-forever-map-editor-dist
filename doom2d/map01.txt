@@ -1,0 +1,1322 @@
+map {
+  name 'MAP01';
+  author '';
+  description '';
+  music 'Standart.wad:D2DMUS\ПРОСТОТА';
+  sky 'Standart.wad:D2DSKY\RSKY1';
+  size (1600 1600);
+
+  /////////////////////////////////////////////////////////////////////////////
+  // texture
+  texture texture0 {
+    path '_water_0';
+  }
+
+  texture texture1 {
+    path '_water_2';
+  }
+
+  texture texture2 {
+    path 'Standart.wad:D2DTEXTURES\EXIT1';
+  }
+
+  texture texture3 {
+    path 'Standart.wad:D2DTEXTURES\GDOORKR1';
+  }
+
+  texture texture4 {
+    path 'Standart.wad:D2DTEXTURES\HDOOR02';
+  }
+
+  texture texture5 {
+    path 'Standart.wad:D2DTEXTURES\HTRAP01';
+  }
+
+  texture texture6 {
+    path 'Standart.wad:D2DTEXTURES\SMRTA0';
+    animated true;
+  }
+
+  texture texture7 {
+    path 'Standart.wad:D2DTEXTURES\SQR01_1';
+  }
+
+  texture texture8 {
+    path 'Standart.wad:D2DTEXTURES\SQR01_4';
+  }
+
+  texture texture9 {
+    path 'Standart.wad:D2DTEXTURES\SQR01_44';
+  }
+
+  texture texture10 {
+    path 'Standart.wad:D2DTEXTURES\SW01_0';
+  }
+
+  texture texture11 {
+    path 'Standart.wad:D2DTEXTURES\SW04_0';
+  }
+
+  texture texture12 {
+    path 'Standart.wad:D2DTEXTURES\SW09_0';
+  }
+
+  texture texture13 {
+    path 'Standart.wad:D2DTEXTURES\VTRAP01';
+  }
+
+  texture texture14 {
+    path 'Standart.wad:D2DTEXTURES\WALL48_2';
+  }
+
+  texture texture15 {
+    path 'Standart.wad:D2DTEXTURES\WALL58_1';
+    animated true;
+  }
+
+  /////////////////////////////////////////////////////////////////////////////
+  // panel
+  panel panel0 {
+    position (1520 48);
+    size (80 16);
+    texture texture7;
+    type PANEL_CLOSEDOOR;
+  }
+
+  panel panel1 {
+    position (608 576);
+    size (96 128);
+    texture texture7;
+    type PANEL_FORE;
+  }
+
+  panel panel2 {
+    position (880 624);
+    size (16 16);
+    texture texture13;
+    type PANEL_FORE;
+  }
+
+  panel panel3 {
+    position (880 640);
+    size (16 48);
+    texture texture13;
+    type PANEL_CLOSEDOOR;
+  }
+
+  panel panel4 {
+    position (320 656);
+    size (144 16);
+    texture texture13;
+    type PANEL_FORE;
+  }
+
+  panel panel5 {
+    position (512 688);
+    size (48 16);
+    texture texture4;
+    type PANEL_CLOSEDOOR;
+  }
+
+  panel panel6 {
+    position (560 688);
+    size (16 16);
+    texture texture4;
+    type PANEL_FORE;
+  }
+
+  panel panel7 {
+    position (720 688);
+    size (48 16);
+    texture texture3;
+    type PANEL_CLOSEDOOR;
+  }
+
+  panel panel8 {
+    position (768 688);
+    size (16 16);
+    texture texture3;
+    type PANEL_FORE;
+  }
+
+  panel panel9 {
+    position (0 832);
+    size (256 16);
+    texture texture8;
+    type PANEL_FORE;
+  }
+
+  panel panel10 {
+    position (0 848);
+    size (256 640);
+    texture texture9;
+    type PANEL_FORE;
+  }
+
+  panel panel11 {
+    position (624 848);
+    size (64 16);
+    texture texture0;
+    type PANEL_WATER;
+    flags PANEL_FLAG_WATERTEXTURES;
+  }
+
+  panel panel12 {
+    position (272 848);
+    size (208 544);
+    texture texture0;
+    type PANEL_WATER;
+    flags PANEL_FLAG_WATERTEXTURES;
+  }
+
+  panel panel13 {
+    position (496 864);
+    size (192 528);
+    texture texture0;
+    type PANEL_WATER;
+    flags PANEL_FLAG_WATERTEXTURES;
+  }
+
+  panel panel14 {
+    position (704 912);
+    size (512 128);
+    texture texture1;
+    type PANEL_ACID1;
+    flags PANEL_FLAG_WATERTEXTURES;
+  }
+
+  panel panel15 {
+    position (272 1392);
+    size (416 112);
+    texture texture0;
+    type PANEL_WATER;
+    flags PANEL_FLAG_WATERTEXTURES;
+  }
+
+  panel panel16 {
+    position (16 1488);
+    size (64 16);
+    texture texture8;
+    type PANEL_WATER;
+    flags PANEL_FLAG_WATERTEXTURES;
+  }
+
+  panel panel17 {
+    position (16 1504);
+    size (672 80);
+    texture texture0;
+    type PANEL_WATER;
+    flags PANEL_FLAG_WATERTEXTURES;
+  }
+
+  panel panel18 {
+    position (1520 64);
+    size (16 336);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel19 {
+    position (1584 64);
+    size (16 448);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel20 {
+    position (0 384);
+    size (1520 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel21 {
+    position (0 400);
+    size (16 432);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel22 {
+    position (1504 448);
+    size (16 16);
+    texture texture12;
+    type PANEL_BACK;
+  }
+
+  panel panel23 {
+    position (1136 496);
+    size (448 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel24 {
+    position (1136 512);
+    size (16 192);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel25 {
+    position (16 560);
+    size (192 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel26 {
+    position (272 560);
+    size (800 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel27 {
+    position (1120 560);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel28 {
+    position (592 576);
+    size (16 128);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel29 {
+    position (880 576);
+    size (16 48);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel30 {
+    position (992 576);
+    size (16 128);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel31 {
+    position (1008 576);
+    size (48 32);
+    texture texture7;
+    type PANEL_BACK;
+  }
+
+  panel panel32 {
+    position (1056 576);
+    size (16 48);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel33 {
+    position (1120 592);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel34 {
+    position (1008 608);
+    size (48 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel35 {
+    position (1120 624);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel36 {
+    position (80 640);
+    size (400 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel37 {
+    position (688 640);
+    size (16 64);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel38 {
+    position (1024 640);
+    size (32 32);
+    texture texture10;
+    type PANEL_BACK;
+  }
+
+  panel panel39 {
+    position (256 656);
+    size (16 48);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel40 {
+    position (272 656);
+    size (32 32);
+    texture texture7;
+    type PANEL_BACK;
+  }
+
+  panel panel41 {
+    position (304 656);
+    size (16 48);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel42 {
+    position (464 656);
+    size (16 48);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel43 {
+    position (1120 656);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel44 {
+    position (272 688);
+    size (32 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel45 {
+    position (480 688);
+    size (32 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel46 {
+    position (576 688);
+    size (16 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel47 {
+    position (608 688);
+    size (80 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel48 {
+    position (704 688);
+    size (16 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel49 {
+    position (784 688);
+    size (208 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel50 {
+    position (1008 688);
+    size (128 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel51 {
+    position (1152 688);
+    size (80 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel52 {
+    position (1216 704);
+    size (16 352);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel53 {
+    position (736 720);
+    size (32 32);
+    texture texture10;
+    type PANEL_BACK;
+  }
+
+  panel panel54 {
+    position (376 728);
+    size (32 32);
+    texture texture11;
+    type PANEL_BACK;
+  }
+
+  panel panel55 {
+    position (256 768);
+    size (368 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel56 {
+    position (688 768);
+    size (464 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel57 {
+    position (256 784);
+    size (16 720);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel58 {
+    position (608 784);
+    size (16 80);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel59 {
+    position (688 784);
+    size (16 816);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel60 {
+    position (704 784);
+    size (512 128);
+    texture texture15;
+    type PANEL_BACK;
+  }
+
+  panel panel61 {
+    position (528 800);
+    size (32 32);
+    texture texture10;
+    type PANEL_BACK;
+  }
+
+  panel panel62 {
+    position (672 800);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel63 {
+    position (16 816);
+    size (240 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel64 {
+    position (672 832);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel65 {
+    position (480 848);
+    size (128 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel66 {
+    position (464 864);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel67 {
+    position (480 864);
+    size (16 528);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel68 {
+    position (672 864);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel69 {
+    position (704 912);
+    size (512 128);
+    texture texture14;
+    type PANEL_BACK;
+  }
+
+  panel panel70 {
+    position (704 1040);
+    size (512 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel71 {
+    position (1200 1200);
+    size (400 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel72 {
+    position (1200 1216);
+    size (16 192);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel73 {
+    position (1584 1216);
+    size (16 192);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel74 {
+    position (1216 1312);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel75 {
+    position (1280 1312);
+    size (240 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel76 {
+    position (1568 1312);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel77 {
+    position (1440 1328);
+    size (32 16);
+    texture texture2;
+    type PANEL_BACK;
+  }
+
+  panel panel78 {
+    position (1216 1344);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel79 {
+    position (1568 1344);
+    size (16 16);
+    texture texture5;
+    type PANEL_STEP;
+  }
+
+  panel panel80 {
+    position (1216 1392);
+    size (208 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel81 {
+    position (1488 1392);
+    size (96 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel82 {
+    position (1408 1408);
+    size (16 192);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel83 {
+    position (1488 1408);
+    size (16 192);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel84 {
+    position (0 1488);
+    size (16 112);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel85 {
+    position (80 1488);
+    size (176 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel86 {
+    position (16 1584);
+    size (672 16);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel87 {
+    position (880 624);
+    size (16 16);
+    texture texture0;
+    type PANEL_CLOSEDOOR;
+    flags PANEL_FLAG_HIDE;
+  }
+
+  panel panel88 {
+    position (320 656);
+    size (144 16);
+    texture texture0;
+    type PANEL_OPENDOOR;
+    flags PANEL_FLAG_HIDE;
+  }
+
+  panel panel89 {
+    position (320 672);
+    size (144 96);
+    texture texture13;
+    type PANEL_OPENDOOR;
+  }
+
+  panel panel90 {
+    position (560 688);
+    size (16 16);
+    texture texture0;
+    type PANEL_CLOSEDOOR;
+    flags PANEL_FLAG_HIDE;
+  }
+
+  panel panel91 {
+    position (768 688);
+    size (16 16);
+    texture texture0;
+    type PANEL_CLOSEDOOR;
+    flags PANEL_FLAG_HIDE;
+  }
+
+  panel panel92 {
+    position (0 1408);
+    size (256 16);
+    texture texture0;
+    type PANEL_WALL;
+    flags PANEL_FLAG_HIDE;
+  }
+
+  panel panel93 {
+    position (0 1424);
+    size (16 64);
+    texture texture0;
+    type PANEL_WALL;
+    flags PANEL_FLAG_HIDE;
+  }
+
+  panel panel94 {
+    position (64 1488);
+    size (16 16);
+    texture texture0;
+    type PANEL_STEP;
+    flags PANEL_FLAG_HIDE;
+  }
+
+  panel panel95 {
+    position (1376 1328);
+    size (48 64);
+    texture texture7;
+    type PANEL_CLOSEDOOR;
+  }
+
+  panel panel96 {
+    position (1384 1328);
+    size (32 64);
+    texture texture6;
+    type PANEL_BACK;
+  }
+
+  panel panel97 {
+    position (1280 1328);
+    size (16 64);
+    texture texture0;
+    type PANEL_BLOCKMON;
+  }
+
+  panel panel98 {
+    position (1504 1328);
+    size (16 64);
+    texture texture0;
+    type PANEL_BLOCKMON;
+  }
+
+  panel panel99 {
+    position (192 576);
+    size (16 64);
+    texture texture7;
+    type PANEL_WALL;
+  }
+
+  panel panel100 {
+    position (80 1488);
+    size (176 16);
+    texture texture7;
+    type PANEL_FORE;
+  }
+
+  panel panel101 {
+    position (256 1408);
+    size (16 96);
+    texture texture7;
+    type PANEL_FORE;
+  }
+
+  /////////////////////////////////////////////////////////////////////////////
+  // item
+  item item0 {
+    position (619 676);
+    type ITEM_WEAPON_SHOTGUN1;
+  }
+
+  item item1 {
+    position (657 649);
+    type ITEM_AMMO_SHELLS;
+  }
+
+  item item2 {
+    position (186 1464);
+    type ITEM_WEAPON_SAW;
+  }
+
+  item item3 {
+    position (129 1481);
+    type ITEM_AMMO_SHELLS;
+  }
+
+  item item4 {
+    position (824 681);
+    type ITEM_AMMO_SHELLS;
+  }
+
+  item item5 {
+    position (592 841);
+    type ITEM_AMMO_SHELLS;
+  }
+
+  item item6 {
+    position (1552 27);
+    type ITEM_KEY_RED;
+    options ITEM_OPTION_FALL;
+  }
+
+  item item7 {
+    position (1137 753);
+    type ITEM_MEDKIT_SMALL;
+  }
+
+  item item8 {
+    position (17 801);
+    type ITEM_MEDKIT_SMALL;
+  }
+
+  item item9 {
+    position (960 672);
+    type ITEM_ARMOR_GREEN;
+  }
+
+  item item10 {
+    position (177 1569);
+    type ITEM_MEDKIT_SMALL;
+  }
+
+  item item11 {
+    position (154 1469);
+    type ITEM_MEDKIT_LARGE;
+  }
+
+  item item12 {
+    position (625 601);
+    type ITEM_MEDKIT_SMALL;
+  }
+
+  item item13 {
+    position (1449 1441);
+    type ITEM_MEDKIT_SMALL;
+  }
+
+  item item14 {
+    position (1449 1501);
+    type ITEM_MEDKIT_SMALL;
+  }
+
+  item item15 {
+    position (1449 1563);
+    type ITEM_MEDKIT_SMALL;
+  }
+
+  item item16 {
+    position (125 547);
+    type ITEM_WEAPON_SHOTGUN2;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item17 {
+    position (80 1475);
+    type ITEM_WEAPON_SHOTGUN2;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item18 {
+    position (566 1568);
+    type ITEM_WEAPON_CHAINGUN;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item19 {
+    position (964 752);
+    type ITEM_WEAPON_ROCKETLAUNCHER;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item20 {
+    position (550 832);
+    type ITEM_WEAPON_PLASMA;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item21 {
+    position (616 607);
+    type ITEM_WEAPON_BFG;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item22 {
+    position (1128 752);
+    type ITEM_ARMOR_BLUE;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item23 {
+    position (1548 148);
+    type ITEM_SPHERE_WHITE;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item24 {
+    position (290 544);
+    type ITEM_AMMO_BULLETS_BOX;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item25 {
+    position (517 819);
+    type ITEM_AMMO_BACKPACK;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item26 {
+    position (224 804);
+    type ITEM_AMMO_SHELLS_BOX;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item27 {
+    position (96 619);
+    type ITEM_AMMO_CELL_BIG;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item28 {
+    position (144 619);
+    type ITEM_AMMO_CELL_BIG;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item29 {
+    position (1312 475);
+    type ITEM_AMMO_CELL_BIG;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item30 {
+    position (1402 477);
+    type ITEM_MEDKIT_LARGE;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item31 {
+    position (426 541);
+    type ITEM_MEDKIT_LARGE;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item32 {
+    position (618 642);
+    type ITEM_MEDKIT_LARGE;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item33 {
+    position (434 1565);
+    type ITEM_MEDKIT_LARGE;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item34 {
+    position (577 673);
+    type ITEM_MEDKIT_SMALL;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item35 {
+    position (1526 1376);
+    type ITEM_WEAPON_CHAINGUN;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item36 {
+    position (1388 1287);
+    type ITEM_SPHERE_BLUE;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  item item37 {
+    position (1474 1296);
+    type ITEM_AMMO_BULLETS_BOX;
+    options ITEM_OPTION_ONLYDM;
+  }
+
+  /////////////////////////////////////////////////////////////////////////////
+  // monster
+  monster monster0 {
+    position (271 716);
+    type MONSTER_ZOMBY;
+    direction DIR_RIGHT;
+  }
+
+  monster monster1 {
+    position (319 716);
+    type MONSTER_ZOMBY;
+    direction DIR_RIGHT;
+  }
+
+  monster monster2 {
+    position (39 1532);
+    type MONSTER_ZOMBY;
+    direction DIR_RIGHT;
+  }
+
+  monster monster3 {
+    position (95 1532);
+    type MONSTER_ZOMBY;
+    direction DIR_RIGHT;
+  }
+
+  monster monster4 {
+    position (151 1532);
+    type MONSTER_ZOMBY;
+    direction DIR_RIGHT;
+  }
+
+  monster monster5 {
+    position (527 798);
+    type MONSTER_IMP;
+  }
+
+  monster monster6 {
+    position (487 638);
+    type MONSTER_IMP;
+    direction DIR_RIGHT;
+  }
+
+  monster monster7 {
+    position (31 508);
+    type MONSTER_ZOMBY;
+    direction DIR_RIGHT;
+  }
+
+  monster monster8 {
+    position (1535 446);
+    type MONSTER_IMP;
+  }
+
+  monster monster9 {
+    position (1015 636);
+    type MONSTER_DEMON;
+    direction DIR_RIGHT;
+  }
+
+  monster monster10 {
+    position (839 636);
+    type MONSTER_ZOMBY;
+    direction DIR_RIGHT;
+  }
+
+  monster monster11 {
+    position (791 636);
+    type MONSTER_ZOMBY;
+    direction DIR_RIGHT;
+  }
+
+  monster monster12 {
+    position (1455 1262);
+    type MONSTER_IMP;
+  }
+
+  monster monster13 {
+    position (1383 1260);
+    type MONSTER_ZOMBY;
+  }
+
+  monster monster14 {
+    position (1311 1262);
+    type MONSTER_IMP;
+  }
+
+  monster monster15 {
+    position (1095 718);
+    type MONSTER_IMP;
+    direction DIR_RIGHT;
+  }
+
+  /////////////////////////////////////////////////////////////////////////////
+  // area
+  area area0 {
+    position (63 508);
+    type AREA_DMPOINT;
+    direction DIR_RIGHT;
+  }
+
+  area area1 {
+    position (1455 444);
+    type AREA_DMPOINT;
+  }
+
+  area area2 {
+    position (639 1532);
+    type AREA_DMPOINT;
+  }
+
+  area area3 {
+    position (1079 636);
+    type AREA_DMPOINT;
+  }
+
+  area area4 {
+    position (519 716);
+    type AREA_DMPOINT;
+  }
+
+  area area5 {
+    position (1039 716);
+    type AREA_DMPOINT;
+  }
+
+  area area6 {
+    position (487 796);
+    type AREA_DMPOINT;
+  }
+
+  area area7 {
+    position (207 1532);
+    type AREA_DMPOINT;
+    direction DIR_RIGHT;
+  }
+
+  area area8 {
+    position (1539 68);
+    type AREA_DMPOINT;
+  }
+
+  area area9 {
+    position (79 588);
+    type AREA_PLAYERPOINT1;
+  }
+
+  area area10 {
+    position (135 588);
+    type AREA_PLAYERPOINT2;
+  }
+
+  area area11 {
+    position (143 588);
+    type AREA_DMPOINT;
+  }
+
+  area area12 {
+    position (151 588);
+    type AREA_REDTEAMPOINT;
+  }
+
+  area area13 {
+    position (95 588);
+    type AREA_BLUETEAMPOINT;
+  }
+
+  /////////////////////////////////////////////////////////////////////////////
+  // trigger
+  trigger trigger0 {
+    position (528 800);
+    size (32 32);
+    texture_panel panel61;
+    type TRIGGER_OPENDOOR;
+    activate_type ACTIVATE_PLAYERPRESS;
+    triggerdata {
+      panelid panel90;
+      d2d true;
+    }
+  }
+
+  trigger trigger1 {
+    position (48 1488);
+    size (16 16);
+    type TRIGGER_SECRET;
+    activate_type ACTIVATE_PLAYERCOLLIDE;
+    triggerdata {
+    }
+  }
+
+  trigger trigger2 {
+    position (944 640);
+    size (16 16);
+    type TRIGGER_TELEPORT;
+    activate_type ACTIVATE_PLAYERCOLLIDE | ACTIVATE_MONSTERCOLLIDE;
+    triggerdata {
+      target (1328 1392);
+      d2d true;
+    }
+  }
+
+  trigger trigger3 {
+    position (688 608);
+    size (16 16);
+    type TRIGGER_SECRET;
+    activate_type ACTIVATE_PLAYERCOLLIDE;
+    triggerdata {
+    }
+  }
+
+  trigger trigger4 {
+    position (1024 640);
+    size (32 32);
+    texture_panel panel38;
+    type TRIGGER_OPENDOOR;
+    activate_type ACTIVATE_PLAYERPRESS;
+    triggerdata {
+      panelid panel87;
+      d2d true;
+    }
+  }
+
+  trigger trigger5 {
+    position (1504 448);
+    size (16 16);
+    texture_panel panel22;
+    type TRIGGER_OPENDOOR;
+    activate_type ACTIVATE_PLAYERPRESS;
+    triggerdata {
+      panelid panel0;
+      d2d true;
+    }
+  }
+
+  trigger trigger6 {
+    position (736 720);
+    size (32 32);
+    texture_panel panel53;
+    type TRIGGER_OPENDOOR;
+    activate_type ACTIVATE_PLAYERPRESS;
+    keys KEY_RED;
+    triggerdata {
+      panelid panel91;
+      d2d true;
+    }
+  }
+
+  trigger trigger7 {
+    position (1424 1584);
+    size (64 16);
+    type TRIGGER_EXIT;
+    activate_type ACTIVATE_PLAYERCOLLIDE;
+    triggerdata {
+      map 'MAP02';
+    }
+  }
+
+  trigger trigger8 {
+    position (384 736);
+    size (16 16);
+    texture_panel panel54;
+    type TRIGGER_TRAP;
+    activate_type ACTIVATE_PLAYERPRESS | ACTIVATE_MONSTERPRESS;
+    triggerdata {
+      panelid panel88;
+      d2d true;
+    }
+  }
+
+  trigger trigger9 {
+    position (528 672);
+    size (32 16);
+    type TRIGGER_PRESS;
+    activate_type ACTIVATE_PLAYERPRESS;
+    triggerdata {
+      position (528 800);
+      size (16 16);
+    }
+  }
+
+  trigger trigger10 {
+    position (1360 1344);
+    size (16 16);
+    type TRIGGER_DOOR5;
+    activate_type ACTIVATE_PLAYERPRESS;
+    triggerdata {
+      panelid panel95;
+    }
+  }
+
+  trigger trigger11 {
+    position (1392 1344);
+    size (16 16);
+    type TRIGGER_TELEPORT;
+    activate_type ACTIVATE_PLAYERCOLLIDE | ACTIVATE_MONSTERCOLLIDE;
+    triggerdata {
+      target (384 848);
+      d2d true;
+    }
+  }
+}
